@@ -52,7 +52,7 @@ func login(c *gin.Context) {
 	}
 
 	if login.Username == "root" && login.Password == "123" {
-		c.JSON(200, gin.H{"code": 200, "message": "success"})
+		c.JSON(200, gin.H{"code": 200, "message": "Ok"})
 	}
 	// shouldBindJSON()
 }
